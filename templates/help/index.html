@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HELP</title>
+</head>
+<body>
+<h1>Welcome to the help</h1>
+{{ help_title }}
+<div>
+    <em>{{ help }}</em>
+    <img src="{% static "images/man.jpg" %}" alt="man here">
+
+</div>
+</body>
+</html>
